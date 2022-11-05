@@ -1,148 +1,26 @@
 {
   "stacks": [
     {
-      "name": "The Blues Stack",
-      "description": "Deployed to the edge (distributed) with a long-running Node.js server and PostgreSQL database. Intended for large and fast production-grade applications serving millions of users.",
-      "tags": ["official", "fly", "docker", "postgresql", "github actions", "auth", "prisma", "tailwind", "cypress", "msw", "vitest", "testing library", "prettier", "eslint", "typescript"],
-      "url": "https://github.com/remix-run/blues-stack"
+      "name": "Image Slicer",
+      "description": "slice an image into tiles, and allow copy and paste to google doc or coda into tables",
+      "tags": [
+        "image",
+        "slice",
+        "tile",
+        "copy",
+        "paste",
+        "google",
+        "doc",
+        "coda",
+        "table"
+      ],
+      "url": "https://github.com/scalerpro/demo-image-slicer"
     },
     {
-      "name": "The Indie Stack",
-      "description": "Deployed to a long-running Node.js server with a persistent SQLite database. This stack is great for websites with dynamic data that you control (blogs, marketing, content sites). It's also a perfect, low-complexity bootstrap for MVPs, prototypes, and proof-of-concepts that can later be updated to the Blues stack easily.",
-      "tags": ["official", "fly", "docker", "sqlite", "github actions", "auth", "prisma", "tailwind", "cypress", "msw", "vitest", "testing library", "prettier", "eslint", "typescript"],
-      "url": "https://github.com/remix-run/indie-stack"
-    },
-    {
-      "name": "The Grunge Stack",
-      "description": "Deployed to a serverless function running Node.js with DynamoDB for persistance. Intended for folks who want to deploy a production-grade application on AWS infrastructure serving millions of users.",
-      "tags": ["official", "aws", "architect", "dynamodb", "github actions", "auth", "tailwind", "cypress", "msw", "vitest", "testing library", "prettier", "eslint", "typescript"],
-      "url": "https://github.com/remix-run/grunge-stack"
-    },
-    {
-      "name": "Speed Metal Stack",
-      "description": "The Remix blog stack for deploying to Fly with MDX, SQLite, testing, linting, formatting, etc.",
-      "tags": ["server", "sqlite", "fly", "tailwind", "mdx"],
-      "url": "https://github.com/Girish21/speed-metal-stack"
-    },
-    {
-      "name": "remix-worker-template",
-      "description": "All-in-one remix starter template for Cloudflare Workers.",
-      "tags": ["cloudflare", "tailwind", "playwright", "eslint", "prettier"],
-      "url": "https://github.com/edmundhung/remix-worker-template"
-    },
-    {
-      "name": "Supa Fly Stack",
-      "description": "The Remix stack for deploying to Fly with Supabase, authentication, testing, linting, formatting, etc.",
-      "tags": ["supabase", "fly", "auth", "tailwind", "cypress", "prisma", "msw", "prettier", "eslint", "typescript"],
-      "url": "https://github.com/rphlmr/supa-fly-stack"
-    },
-    {
-      "name": "remix-starter-serverless",
-      "description": "A template for deploying Remix to AWS with the Serverless framework.",
-      "tags": ["aws", "lambda", "typescript", "serverless"],
-      "url": "https://github.com/shamsup/remix-starter-serverless"
-    },
-    {
-      "name": "Azure Remix Stack",
-      "description": "A Remix stack template for running a Remix app on Azure.",
-      "tags": ["azure", "prisma", "tailwind", "cypress", "msw", "vitest", "testing library", "prettier", "eslint", "typescript"],
-      "url": "https://github.com/aaronpowell/azure-remix-stack"
-    },
-    {
-      "name": "Melodic Death Metal",
-      "description": "The Remix Indie Stack without deployment.",
-      "tags": ["sqlite", "github actions", "prisma", "tailwind", "cypress", "msw", "vitest", "testing library", "prettier", "eslint", "typescript"],
-      "url": "https://github.com/baijanathTharu/melodic-death-metal"
-    },
-    {
-      "name": "Chakra Remix Blues Stack",
-      "description": "Chakra UI port for the Remix Blues Stack.",
-      "tags": ["fly", "postgresql", "github actions", "prisma", "chakra", "cypress", "msw", "vitest", "testing library", "prettier", "eslint", "typescript"],
-      "url": "https://github.com/anubra266/chakra-remix-stack-blues"
-    },
-    {
-      "name": "Techno Stack",
-      "description": "The Remix Stack for deploying to Kubernetes, talking to an existing Postgres db, authentication, testing, linting, formatting, etc.",
-      "tags": ["kubernetes", "prisma", "tailwind", "cypress", "msw", "vitest", "testing library", "prettier", "eslint", "typescript"],
-      "url": "https://github.com/BenMcH/techno-stack"
-    },
-    {
-      "name": "K-pop Stack",
-      "description": "A template for deploying Remix to Netlify Edge with Supabase",
-      "tags": ["netlify", "supabase", "tailwind", "cypress", "testing library", "prettier", "eslint", "typescript"],
-      "url": "https://github.com/netlify-templates/kpop-stack"
-    },
-    {
-      "name": "RockSpec Stacks",
-      "description": "A template for deploying a Progressive Web App with a persistent database, testing and authentication suites. A fun ride through Remix!",
-      "tags": ["fly", "postgresql", "prisma", "cypress", "pwa", "prettier", "eslint", "typescript", "tailwind"],
-      "url": "https://github.com/ShafSpecs/rockspec-stack"
-    },
-    {
-      "name": "The Bossa Nova Stack",
-      "description": "The Remix Stack with Clerk authentication, Supabase database, Chakra UI, testing, linting, and more.",
-      "tags": ["vercel", "supabase", "postgres", "clerk", "cypress", "prettier", "eslint", "typescript", "chakra"],
-      "url": "https://github.com/clerkinc/remix-bossa-nova-stack"
-    },
-    {
-      "name": "Chop Suey Stack",
-      "description": "A template for deploying Remix to Fly with EdgeDB. Comes with Clerk for simple authentication and opinionated configs for TypeScript, Prettier, and ESLint.",
-      "tags": ["fly", "edgedb", "clerk", "prisma", "cypress", "prettier", "eslint", "typescript", "tailwind", "zod", "msw", "testing library", "github actions", "react hot toast", "react icons"],
-      "url": "https://github.com/jkcorrea/remix-chop-suey-stack"
-    },
-    {
-      "name": "DnB Stack",
-      "description": "The Remix Stack for deploying to Vercel with testing, linting, formatting, structure and mock for 3rd party API integration.",
-      "tags": ["vercel", "github actions", "vitest", "testing library", "husky", "prisma", "cypress", "prettier", "eslint", "typescript", "tailwind"],
-      "url": "https://github.com/robipop22/dnb-stack"
-    },
-    {
-      "name": "Eurodance Stack",
-      "description": "The Remix Stack for GraphQL developers, brought by Vulcan.",
-      "tags": ["vercel", "graphql", "storybook", "mongo", "codesandbox"],
-      "url": "https://github.com/VulcanJS/eurodance-stack"
-    },
-    {
-      "name": "Air Metal Stack",
-      "description": "A Remix stack setup to run on Deno with support for Rust WASM modules!",
-      "tags": ["deno", "deno deploy", "rust", "webassembly"],
-      "url": "https://github.com/benwis/air-metal-stack"
-    },
-    {
-      "name": "French House Stack",
-      "description": "The Remix Stack for Web2 apps and Web3 DApps with authentication with Magic, testing, linting, formatting, etc.",
-      "tags": ["magic", "cypress", "vitest", "testing library", "tailwind", "github actions", "prettier", "eslint", "husky", "typescript", "web3", "i18n"],
-      "url": "https://github.com/janhesters/french-house-stack"
-    },
-    {
-      "name": "Minimal House Remix Stack",
-      "description": "The Remix Stack to setup Remix with minimal typsescript, tailwind, linting, and formatting. Worry about storage, testing, deployment later.",
-      "tags": ["eslint", "typescript", "prettier", "tailwind"],
-      "url": "https://github.com/BogDAAAMN/minimal-remix-stack"
-    },
-    {
-      "name": "New Wave Stack",
-      "description": "Custom Remix stack using Clerk for authentication and full user management.",
-      "tags": ["clerk", "fauna", "netlify", "tailwind", "cypress", "jest", "testing library", "eslint", "typescript"],
-      "url": "https://github.com/charles-clerk-dev/new-wave-stack"
-    },
-    {
-      "name": "Remix Render Stack",
-      "description": "A Remix stack for deploying remix to render.com with postgres",
-      "tags": ["prism", "render.com", "postgresql"],
-      "url": "https://github.com/TerribleDev/remix-render"
-    },
-    {
-      "name": "Techno Stack",
-      "description": "The Remix Stack for deploying to Kubernetes, talking to an existing Postgres Db, authentication, testing, linting, formatting, etc.",
-      "tags": ["kubernetes", "docker", "github actions", "prisma", "tailwind", "cypress", "msw", "vitest", "testing library", "eslint", "typescript"],
-      "url": "https://github.com/BenMcH/techno-stack"
-    },
-    {
-      "name": "Prog Stack",
-      "description": "Adapted from blues. Prisma is brilliant, but I like Hasura. Hasura is like prog, it gets better every time you get into it.",
-      "tags": ["hasura", "fly", "docker", "tailwind", "cypress", "msw", "vitest", "testing library", "eslint", "typescript"],
-      "url": "https://github.com/k1sul1/prog-stack"
+      "name": "Github Issue Editor",
+      "description": "a clone of the github issue editor, but with a few extra features",
+      "tags": ["github", "issue", "editor", "clone", "extra", "feature"],
+      "url": "https://github.com/scalerpro/demo-issue-editor"
     }
   ]
 }
