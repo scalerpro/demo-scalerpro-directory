@@ -10,7 +10,7 @@ export const Header = () => (
       <li className={styles.header__item}>
         <a
           className={styles.header__link}
-          href="https://github.com/nshki/remix-directory"
+          href="https://github.com/scalerpro/demo-scalerpro-directory"
         >
           GitHub
         </a>
